@@ -16,5 +16,6 @@ pkg install blockball
 | **Hello Terminal** (`hello-terminal`) | 1.0.0 | terminal | A colourful tour of what the Quin terminal can draw. Run: hello-terminal |
 | **cowsay** (`cowsay`) | 1.0.0 | terminal | A cow (or Tux, a cat, a robot) says whatever you like. Run: cowsay hi |
 | **fortune** (`fortune`) | 1.0.0 | terminal | A random saying about code and making things. Run: fortune |
+| **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
 
 Packages are built by `packages/build.py` in the Quin OS source tree. Each `.qpk` is a tar archive with a `package.json`; `index.json` lists every package with its SHA-256, which Quin OS checks before installing.

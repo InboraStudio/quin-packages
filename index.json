@@ -121,6 +121,26 @@
       "size": 61440,
       "installed_size": 51808,
       "featured": false
+    },
+    {
+      "id": "hda-audio",
+      "name": "HD Audio Driver",
+      "version": "1.0.0",
+      "summary": "Sound for computers with Intel High Definition Audio -- nearly every PC since 2005.",
+      "description": "Quin OS has a built-in driver for the older AC97 sound chip. This driver adds the HD Audio controller that almost every desktop and laptop has instead (Intel, AMD and NVIDIA chipsets, and QEMU's intel-hda). Once installed, the Music player, videos, games and system sounds all play through it, and it starts with Quin OS every time.\n\nIt finds the codec's speaker, line-out and headphone outputs and plays through all of them, 16-bit stereo at 8 to 192 kHz, with volume control. Not supported yet: recording, HDMI and DisplayPort audio, and switching outputs when headphones are plugged in.\n\nTerminal: lsmod shows it running, rmmod hda_audio stops it.",
+      "category": "Drivers",
+      "kind": "driver",
+      "changes": "First release.",
+      "hardware": [
+        "class:0403"
+      ],
+      "author": "Quin OS Team",
+      "file": "packages/hda-audio/hda-audio-1.0.0.qpk",
+      "icon": "packages/hda-audio/icon.png",
+      "sha256": "58d934cfc14021a091dd8bebcee0d2522a777a52fcdd9b8e80518c147d1a5b0e",
+      "size": 51200,
+      "installed_size": 45076,
+      "featured": false
     }
   ]
 }
