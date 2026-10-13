@@ -21,6 +21,7 @@ pkg install blockball
 | **pomo** (`pomo`) | 1.0.0 | terminal | A focus timer with a big countdown, a chime and a notification. Run: pomo |
 | **2048** (`2048`) | 1.0.0 | terminal | Slide the tiles, join equal numbers, reach 2048. Run: 2048 |
 | **matrix** (`matrix`) | 1.0.0 | terminal | Digital rain like the film, in any colour. Run: matrix |
+| **hexview** (`hexview`) | 1.0.0 | terminal | Browse any file as hex, with a text column and number inspector. Run: hexview FILE |
 | **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
 
 Packages are built by `packages/build.py` in the Quin OS source tree. Each `.qpk` is a tar archive with a `package.json`; `index.json` lists every package with its SHA-256, which Quin OS checks before installing.

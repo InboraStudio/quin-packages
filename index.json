@@ -1,6 +1,6 @@
 {
   "name": "Quin OS Packages",
-  "updated": "2026-10-10",
+  "updated": "2026-10-13",
   "format": 1,
   "packages": [
     {
@@ -206,6 +206,23 @@
       "size": 71680,
       "installed_size": 62513,
       "featured": false
+    },
+    {
+      "id": "hexview",
+      "name": "hexview",
+      "version": "1.0.0",
+      "summary": "Browse any file as hex, with a text column and number inspector. Run: hexview FILE",
+      "description": "Open any file and see its bytes: offsets down the side, hex in the middle, the text on the right, colour-coded so zeros, text, spaces, control and high bytes stand apart. Move with the arrows, jump with g (255, 0xff, +16), find text with / or hex bytes with x (89 50 4e 47), and n / N step through the matches. The bar at the bottom shows the byte under the cursor as a number (8, 16, 32 and 64 bit, little or big endian) and in binary.\n\nIt reads a screenful at a time, so even a huge file opens at once. hexview -d FILE prints instead of browsing (add -s offset and -n length), and some-command | hexview - reads a pipe. Remove it any time from the Package Manager or with: pkg remove hexview",
+      "category": "Tools",
+      "kind": "tool",
+      "changes": "First release.",
+      "author": "Quin OS Team",
+      "file": "packages/hexview/hexview-1.0.0.qpk",
+      "icon": "packages/hexview/icon.png",
+      "sha256": "7c20f8af5b5bdbe6dc0caaf4021b6793efef1afccea2fbf420cbde34fb9442b0",
+      "size": 92160,
+      "installed_size": 82400,
+      "featured": true
     },
     {
       "id": "hda-audio",
