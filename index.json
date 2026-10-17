@@ -253,9 +253,9 @@
       "author": "Quin OS Team",
       "file": "packages/quincraft/quincraft-1.0.0.qpk",
       "icon": "packages/quincraft/icon.png",
-      "sha256": "1e75f518d39ea5e06af451a8eb578557bef3e1113bb34711f4cafcfdb71a9ca8",
+      "sha256": "04c3ddf884a3284bac68d2a8c9a3cdf5afce654138cf9094353edb1360084a3c",
       "size": 460800,
-      "installed_size": 448150,
+      "installed_size": 448270,
       "featured": true
     },
     {
