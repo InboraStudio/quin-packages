@@ -25,5 +25,9 @@ pkg install blockball
 | **musicviz** (`musicviz`) | 1.0.0 | terminal | A live spectrum of the music playing, right in the Terminal. Run: musicviz |
 | **Quincraft** (`quincraft`) | 1.3.2 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
 | **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
+| **Lua for Quin Studio** (`lang-lua`) | 1.0.0 | Studio extension | Lua colours, an outline, Ctrl+R to run, and a Hello Lua project for Quin Studio. |
+| **Python for Quin Studio** (`lang-python`) | 1.0.0 | Studio extension | Python colours and an Outline for Quin Studio (no interpreter on Quin OS yet). |
+| **Web Languages for Quin Studio** (`lang-web`) | 1.0.0 | Studio extension | JavaScript, JSON and CSS colours for Quin Studio. |
+| **Shell and Config Files for Quin Studio** (`lang-config`) | 1.0.0 | Studio extension | Shell scripts (Ctrl+R runs them), Makefiles, YAML, TOML and SQL in Quin Studio. |
 
 Packages are built by `packages/build.py` in the Quin OS source tree. Each `.qpk` is a tar archive with a `package.json`; `index.json` lists every package with its SHA-256, which Quin OS checks before installing.
