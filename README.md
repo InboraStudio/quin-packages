@@ -23,7 +23,7 @@ pkg install blockball
 | **matrix** (`matrix`) | 1.0.0 | terminal | Digital rain like the film, in any colour. Run: matrix |
 | **hexview** (`hexview`) | 1.0.0 | terminal | Browse any file as hex, with a text column and number inspector. Run: hexview FILE |
 | **musicviz** (`musicviz`) | 1.0.0 | terminal | A live spectrum of the music playing, right in the Terminal. Run: musicviz |
-| **Quincraft** (`quincraft`) | 1.3.2 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
+| **Quincraft** (`quincraft`) | 1.4.0 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
 | **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
 | **Lua for Quin Studio** (`lang-lua`) | 1.0.0 | Studio extension | Lua colours, an outline, Ctrl+R to run, and a Hello Lua project for Quin Studio. |
 | **Python for Quin Studio** (`lang-python`) | 1.0.0 | Studio extension | Python colours and an Outline for Quin Studio (no interpreter on Quin OS yet). |
