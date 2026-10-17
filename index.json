@@ -261,18 +261,18 @@
     {
       "id": "voice-recorder",
       "name": "Voice Recorder",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "summary": "Record your voice, keep it as a WAV file and listen to it again.",
       "description": "Press Record and speak: a live waveform and level meter show what the microphone hears, and the recording is written to Music/Recordings as it goes (mono, 48 kHz, 16 bit WAV), so it opens in any player, including the Music Player. Pause and carry on, turn the input gain up or down, then choose any recording from the list to play it, jump around by clicking its picture, rename it, delete it or open it in another app.\n\nNeeds a sound card with a microphone input (the AC97 card in the default setup). In a virtual machine the host's microphone has to be switched on for it, otherwise recordings are silent and the app says so.\n\nThe full source is installed next to the app (the source folder in its install folder): open it in Quin Studio with Open Folder, change it and build it there.",
       "category": "Apps",
       "kind": "app",
-      "changes": "1.1.0: cleaner recordings: Enhance (on by default) removes the microphone input's DC step and rumble with an 80 Hz high-pass, fades in, and levels the finished file so the loudest peak sits just under full scale; a too loud warning; saving no longer freezes the window. Playback always runs at the right speed.",
+      "changes": "1.1.1: levelling rewrites the file in place (no rename over the original). 1.1.0: cleaner recordings: Enhance (on by default) removes the microphone input's DC step and rumble with an 80 Hz high-pass, fades in, and levels the finished file so the loudest peak sits just under full scale; a too loud warning; saving no longer freezes the window. Playback always runs at the right speed.",
       "author": "Quin OS Team",
-      "file": "packages/voice-recorder/voice-recorder-1.1.0.qpk",
+      "file": "packages/voice-recorder/voice-recorder-1.1.1.qpk",
       "icon": "packages/voice-recorder/icon.png",
-      "sha256": "28e6636889e428911124ff990c8134188061c2316240f64a21df1f3fa797a76f",
+      "sha256": "16463b7673a3aa360797d59353dc9a232687f3d2486f699e7ed8ad99ea3e92ee",
       "size": 389120,
-      "installed_size": 375369,
+      "installed_size": 375241,
       "featured": true
     },
     {
