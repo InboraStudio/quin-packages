@@ -23,6 +23,7 @@ pkg install blockball
 | **matrix** (`matrix`) | 1.0.0 | terminal | Digital rain like the film, in any colour. Run: matrix |
 | **hexview** (`hexview`) | 1.0.0 | terminal | Browse any file as hex, with a text column and number inspector. Run: hexview FILE |
 | **musicviz** (`musicviz`) | 1.0.0 | terminal | A live spectrum of the music playing, right in the Terminal. Run: musicviz |
+| **Quincraft** (`quincraft`) | 1.0.0 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
 | **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
 
 Packages are built by `packages/build.py` in the Quin OS source tree. Each `.qpk` is a tar archive with a `package.json`; `index.json` lists every package with its SHA-256, which Quin OS checks before installing.

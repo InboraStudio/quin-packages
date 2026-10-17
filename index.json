@@ -242,6 +242,23 @@
       "featured": true
     },
     {
+      "id": "quincraft",
+      "name": "Quincraft",
+      "version": "1.0.0",
+      "summary": "A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night.",
+      "description": "Build and survive in a world that never ends. Quincraft makes its own terrain from a seed: oceans and beaches, forests, deserts, snowy hills and mountains, with caves, lakes, lava and ores underground. Chop trees, dig, craft tools and armour, smelt ore in a furnace, farm wheat, and keep an eye on your health and hunger. When the sun goes down zombies, skeletons, creepers and spiders come out; by day pigs, cows, sheep and chickens wander the fields. Water and lava flow, sand falls, TNT explodes, and the weather changes. Choose Creative to fly and build with every block.\n\nWorlds are saved in your home folder (quincraft) as you play. Everything -- textures, sounds, terrain -- is made by the game itself, so it needs no extra downloads. Remove it any time from the Package Manager.\n\nCommands:\nControls\n  W A S D  \u2014  walk (double-tap W or hold Ctrl to sprint)\n  Space  \u2014  jump, swim up, fly up (Creative: double-tap Space to fly)\n  Shift or X  \u2014  sneak (won't fall off edges), fly down\n  Mouse  \u2014  look around\n  Left button  \u2014  hold to dig, click to hit mobs\n  Right button  \u2014  place a block, use doors/chests/furnaces/crafting tables, hold to eat food or draw a bow\n  1 to 9 or mouse wheel  \u2014  choose a hotbar slot\n  E  \u2014  inventory and 2x2 crafting (Creative: all blocks and items)\n  Q  \u2014  drop one item (Ctrl+Q the whole stack)\n  `  \u2014  show or hide the debug panel\n  Esc  \u2014  pause menu (options, save, quit to title)\nTips\n  Punch trees for logs, make planks, a crafting table, then a wooden pickaxe. Furnace: 8 cobblestone in a ring.\n  Torches (coal over a stick) light up caves and keep monsters away. Buckets pick up and place water or lava.\nOptions: render distance, field of view, mouse speed, volume, render quality, dynamic resolution and more.",
+      "category": "Games",
+      "kind": "app",
+      "changes": "First release.",
+      "author": "Quin OS Team",
+      "file": "packages/quincraft/quincraft-1.0.0.qpk",
+      "icon": "packages/quincraft/icon.png",
+      "sha256": "74e29d28c8089f13c2ed409e5d46ee2fc74727e8615a04f33c1a80363e5c15fa",
+      "size": 450560,
+      "installed_size": 443958,
+      "featured": true
+    },
+    {
       "id": "hda-audio",
       "name": "HD Audio Driver",
       "version": "1.0.0",
