@@ -1,6 +1,6 @@
 {
   "name": "Quin OS Packages",
-  "updated": "2026-10-17",
+  "updated": "2026-10-19",
   "format": 1,
   "packages": [
     {
@@ -256,6 +256,23 @@
       "sha256": "0ae134da62a5170c96deeaa5018bfd66234b5ddbec31084f4f4aa3bee119a050",
       "size": 460800,
       "installed_size": 452774,
+      "featured": true
+    },
+    {
+      "id": "quinshift",
+      "name": "QuinShift",
+      "version": "1.0.0",
+      "summary": "Drag a file, press Shift, drop it on a slice: convert it or work on it without opening an app.",
+      "description": "Start dragging a file in the File Manager and press Shift. A glass ring opens under the pointer. Drop the file on a slice and it is done. Press Shift again to switch the ring between Convert and Tools.\n\nConvert: PDF to DOCX, TXT, JPG or PNG; pictures to PNG, JPG, PDF, DOCX, TIFF, BMP or ICO; text and Word files to PDF, TXT or DOCX. The result is saved next to the original and a bubble offers Open and Undo. Your original is never changed.\n\nTools for pictures: Compress (with the new size shown), Resize, Crop (aspect ratios, drag the box or type the size), Edit (brightness, contrast, saturation, rotate, flip, grayscale, auto levels), Add background (colour or gradient, padding, rounded corners, shadow, ratio), Annotate (boxes, lines, arrows, text) and Redact (black box, pixelate or blur). Every file also has Metadata, which shows what a file says about itself and saves a copy without camera and location data. PDFs have Images, which saves the pictures inside them.\n\nQuinShift keeps running in the background after you start it; start it again to open its window, where you choose the key (Shift or Ctrl), switch the ring off, or set the JPEG quality. The full source is installed next to the app (the source folder in its install folder): open it in Quin Studio with Open Folder, change it and build it there.",
+      "category": "Tools",
+      "kind": "app",
+      "changes": "First release.",
+      "author": "Quin OS Team",
+      "file": "packages/quinshift/quinshift-1.0.0.qpk",
+      "icon": "packages/quinshift/icon.png",
+      "sha256": "d4a5060bc6c3642f124fc20ce8e37ef67ab00b477cd6cc40ea3056a876eb19cb",
+      "size": 757760,
+      "installed_size": 718237,
       "featured": true
     },
     {
