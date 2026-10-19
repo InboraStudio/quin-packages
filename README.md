@@ -23,8 +23,8 @@ pkg install blockball
 | **matrix** (`matrix`) | 1.0.0 | terminal | Digital rain like the film, in any colour. Run: matrix |
 | **hexview** (`hexview`) | 1.0.0 | terminal | Browse any file as hex, with a text column and number inspector. Run: hexview FILE |
 | **musicviz** (`musicviz`) | 1.0.0 | terminal | A live spectrum of the music playing, right in the Terminal. Run: musicviz |
-| **Quincraft** (`quincraft`) | 1.4.0 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
-| **QuinShift** (`quinshift`) | 1.0.0 | app | Drag a file, press Shift, drop it on a slice: convert it or work on it without opening an app. |
+| **Quincraft** (`quincraft`) | 1.5.0 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
+| **QuinShift** (`quinshift`) | 1.1.0 | app | Drag a file, press Shift, drop it on a slice: convert it or work on it without opening an app. |
 | **Voice Recorder** (`voice-recorder`) | 1.1.1 | app | Record your voice, keep it as a WAV file and listen to it again. |
 | **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
 | **Lua for Quin Studio** (`lang-lua`) | 1.0.0 | Studio extension | Lua colours, an outline, Ctrl+R to run, and a Hello Lua project for Quin Studio. |
