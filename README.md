@@ -23,7 +23,8 @@ pkg install blockball
 | **matrix** (`matrix`) | 1.0.0 | terminal | Digital rain like the film, in any colour. Run: matrix |
 | **hexview** (`hexview`) | 1.0.0 | terminal | Browse any file as hex, with a text column and number inspector. Run: hexview FILE |
 | **musicviz** (`musicviz`) | 1.0.0 | terminal | A live spectrum of the music playing, right in the Terminal. Run: musicviz |
-| **Quincraft** (`quincraft`) | 1.5.2 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
+| **Quincraft GPU (Mesa)** (`quincraft-gpu`) | 1.6.0 | terminal | Draw Quincraft with Mesa OpenGL (on the host GPU with make launch GL3D=1). Choose it in Settings > Graphics. |
+| **Quincraft** (`quincraft`) | 1.6.0 | app | A complete voxel sandbox: endless worlds, caves, survival, crafting, mobs and day and night. |
 | **QuinShift** (`quinshift`) | 1.1.0 | app | Drag a file, press Shift, drop it on a slice: convert it or work on it without opening an app. |
 | **Voice Recorder** (`voice-recorder`) | 1.1.1 | app | Record your voice, keep it as a WAV file and listen to it again. |
 | **HD Audio Driver** (`hda-audio`) | 1.0.0 | driver | Sound for computers with Intel High Definition Audio -- nearly every PC since 2005. |
@@ -31,5 +32,11 @@ pkg install blockball
 | **Python for Quin Studio** (`lang-python`) | 1.0.0 | Studio extension | Python colours and an Outline for Quin Studio (no interpreter on Quin OS yet). |
 | **Web Languages for Quin Studio** (`lang-web`) | 1.0.0 | Studio extension | JavaScript, JSON and CSS colours for Quin Studio. |
 | **Shell and Config Files for Quin Studio** (`lang-config`) | 1.0.0 | Studio extension | Shell scripts (Ctrl+R runs them), Makefiles, YAML, TOML and SQL in Quin Studio. |
+| **Archive Manager** (`archiver`) | 1.0.0 | app | Look inside .zip, .tar and .tar.gz files, unpack all of it or only what you pick, and pack folders and files. |
+| **Notes** (`notes`) | 1.0.0 | app | Quick notes that save themselves, with search and pinning. |
+| **Calendar** (`calendar`) | 1.0.0 | app | A month at a glance, the day's agenda, repeating events and reminders. |
+| **Passwords** (`passwords`) | 1.0.0 | app | Keep your logins in a vault that only your master password opens. |
+| **RSS Reader** (`rss-reader`) | 1.0.0 | app | Follow news sites and blogs from one window, without visiting them. |
+| **Maps** (`maps`) | 1.0.0 | app | A street map of the world: drag, zoom, search for places and pin the ones you want to keep. |
 
 Packages are built by `packages/build.py` in the Quin OS source tree. Each `.qpk` is a tar archive with a `package.json`; `index.json` lists every package with its SHA-256, which Quin OS checks before installing.
