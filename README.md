@@ -38,5 +38,8 @@ pkg install blockball
 | **Passwords** (`passwords`) | 1.0.0 | app | Keep your logins in a vault that only your master password opens. |
 | **RSS Reader** (`rss-reader`) | 1.0.0 | app | Follow news sites and blogs from one window, without visiting them. |
 | **Maps** (`maps`) | 1.0.0 | app | A street map of the world: drag, zoom, search for places and pin the ones you want to keep. |
+| **Media Demos** (`media-demos`) | 1.0.0 | app | Six small programs that show Quin OS's video, audio and font decoders at work. |
+| **Graphics Demos** (`graphics-demos`) | 1.0.0 | app | A spinning cube drawn three ways: Quin OS's OpenGL, its Vulkan, and the real Mesa. |
+| **PDF Viewer** (`pdf-viewer`) | 1.0.0 | app | Read PDF files and comic archives: zoom, search, follow links, copy text. |
 
 Packages are built by `packages/build.py` in the Quin OS source tree. Each `.qpk` is a tar archive with a `package.json`; `index.json` lists every package with its SHA-256, which Quin OS checks before installing.

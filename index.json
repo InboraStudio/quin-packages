@@ -498,6 +498,57 @@
       "size": 256000,
       "installed_size": 248658,
       "featured": true
+    },
+    {
+      "id": "media-demos",
+      "name": "Media Demos",
+      "version": "1.0.0",
+      "summary": "Six small programs that show Quin OS's video, audio and font decoders at work.",
+      "description": "Test programs for the media libraries inside Quin OS, for people who build or check them. H.264 Demo (edge264), VP9 Demo (libvpx) and AV1 Demo (dav1d) each play a short built-in clip in a window; MP3 Demo (minimp3) and Opus Demo (libopus) play a short built-in recording through the sound card; FreeType Demo draws text with real TrueType hinting.\n\nThey used to sit in the base system and the app launcher; they are here so the launcher only shows what you use. The video player, Music Player and Videos apps do not need this package.",
+      "category": "Tools",
+      "kind": "app",
+      "changes": "First release: moved out of the base system.",
+      "author": "Quin OS Team",
+      "file": "packages/media-demos/media-demos-1.0.0.qpk",
+      "icon": "packages/media-demos/icon.png",
+      "sha256": "b2fc1c501a3067b68e22ff2583153ae19e219931b7f05173ec81c032aea7bfb6",
+      "size": 2385920,
+      "installed_size": 2367408,
+      "featured": false
+    },
+    {
+      "id": "graphics-demos",
+      "name": "Graphics Demos",
+      "version": "1.0.0",
+      "summary": "A spinning cube drawn three ways: Quin OS's OpenGL, its Vulkan, and the real Mesa.",
+      "description": "Three small programs that draw the same rotating cube through Quin OS's OpenGL subset, its Vulkan subset, and the real Mesa 24 library (software renderer). For people who work on or check the graphics stack.\n\nMesa Cube Demo is large (13 MB) because it carries the whole Mesa library. They used to sit in the base system and the app launcher; they are here so the launcher only shows what you use.",
+      "category": "Tools",
+      "kind": "app",
+      "changes": "First release: moved out of the base system.",
+      "author": "Quin OS Team",
+      "file": "packages/graphics-demos/graphics-demos-1.0.0.qpk",
+      "icon": "packages/graphics-demos/icon.png",
+      "sha256": "ec479ee9670f5c8811ce6f5c5c5d1d4daa4f087695229b9c051c73c8e65503d7",
+      "size": 13281280,
+      "installed_size": 13273165,
+      "featured": false
+    },
+    {
+      "id": "pdf-viewer",
+      "name": "PDF Viewer",
+      "version": "1.0.0",
+      "summary": "Read PDF files and comic archives: zoom, search, follow links, copy text.",
+      "description": "Open a PDF (or double-click one in the File Manager) and read it. The page you see is drawn by MuPDF, so fonts, images and colours come out the way the author made them. Left / Right or Page Up / Down turn pages, the mouse wheel scrolls and carries on to the next page, + and - zoom, W fits the width and P the whole page. Contents shows the document's outline; search finds a word on every page (Return jumps to the next hit, Shift+Return to the one before) and marks it in yellow. Drag across the text to select it and press Ctrl+C. Links inside the document jump to their page; web links open in the Browser. Dark inverts the page for reading at night. Password-protected PDFs ask for the password.\n\nAlso opens .cbz comic archives. Not supported yet: EPUB, XPS and SVG, filling in forms, annotations, printing.\n\nThe PDF Viewer uses MuPDF (c) Artifex Software, which is licensed under the AGPL-3.0, so this app and its source are AGPL-3.0 too. The full source is installed next to the app (see LICENSE.md in it).",
+      "category": "Apps",
+      "kind": "app",
+      "changes": "First release.",
+      "author": "Quin OS Team",
+      "file": "packages/pdf-viewer/pdf-viewer-1.0.0.qpk",
+      "icon": "packages/pdf-viewer/icon.png",
+      "sha256": "1182ed4f679c98418d7f921c6553e21f7d1b8aa375d1009fa1b58b10fad63876",
+      "size": 13619200,
+      "installed_size": 13613558,
+      "featured": true
     }
   ]
 }
